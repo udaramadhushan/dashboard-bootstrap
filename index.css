@@ -1,3 +1,14 @@
+
+
+body {
+   
+    background: linear-gradient(90deg, rgba(10,65,172,1) 18%, rgba(40,205,213,1) 74%);
+   
+}
+h1{
+    color: white;
+}
+
 .card{
  
      margin: 10px 10px 10px 10px;
@@ -6,4 +17,11 @@
 .card:hover{
 
     transform: scale(1.1);
+}
+
+.material-icons {
+
+   font-size: 60px;
+    padding-top: 10px; 
+    text-align: center;
 }
