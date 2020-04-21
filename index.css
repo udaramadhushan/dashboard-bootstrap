@@ -2,16 +2,44 @@
 
 body {
    
-    background: linear-gradient(90deg, rgba(10,65,172,1) 18%, rgba(40,205,213,1) 74%);
+    background: linear-gradient(90deg, rgba(10,172,157,1) 18%, rgba(174,223,127,1) 74%);
    
 }
+
+h1, h5, h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
 h1{
     color: white;
 }
 
+h5{
+    display:inline;
+    color: black;
+}
+
+
+.logo{
+
+    height: 50px;
+    width:50px;
+   
+    display:inline;
+    color:black;
+}
+
+
 .card{
  
      margin: 10px 10px 10px 10px;
+     width: 10rem;
+     height: 16rem;
+     border-color: black;
 }
 
 .card:hover{
@@ -19,9 +47,14 @@ h1{
     transform: scale(1.1);
 }
 
+.card-footer{
+
+    background-color: #65c274;
+}
 .material-icons {
 
-   font-size: 60px;
+   font-size: 50px;
     padding-top: 10px; 
     text-align: center;
+    
 }
