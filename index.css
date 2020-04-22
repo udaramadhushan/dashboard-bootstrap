@@ -16,21 +16,24 @@ h1, h5, h2{
 
 h1{
     color: white;
+    background-color:#73b54c;
+    padding: 5px;
 }
 
-h5{
+h5 , h2{
     display:inline;
     color: black;
+    
 }
-
 
 .logo{
 
-    height: 50px;
-    width:50px;
-   
-    display:inline;
+   height: 60px; 
+   width: 60px;
+    display: inline;
     color:black;
+    padding: 5px;
+
 }
 
 
@@ -57,4 +60,9 @@ h5{
     padding-top: 10px; 
     text-align: center;
     
+}
+
+footer{
+   
+    background-color: #faf5f5;
 }

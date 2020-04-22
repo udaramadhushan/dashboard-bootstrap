@@ -23,23 +23,47 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light col-12">
-  <div class="col-8">
-    
- <img src="logo.png"  class='logo' alt="logo">
- <h2 class='logo'> Faculty of science</h2>
+<nav class="row navbar navbar-expand-lg navbar-light bg-light full-width fixed-top">
  
+  <div class="col-12 col-sm-6 col-md-6">
 
 
+    <div class="row align-items-center justify-content-start">
+    <div class='align-items-center'>
+        <img src="logo.png"  class='logo' alt="logo">
+      </div>
+    <div class='align-items-center justify-content-start'>
+       <h2 class='logo align-items-center'> Faculty of science</h2>
+      </div>
+    </div>
 </div>
-<div class="col-4">
+
+
+<div class="col-6 col-sm-4 col-md-4">
   
       <input class="form-control " type="search" id='search-bar' placeholder="Search" aria-label="Search">
    
   </div>
   </div>
+<div class='col-6 col-sm-2 col-md-2'>
+  <div class="dropdown  ">
+   
+    <button class="btn  btn-outline-dark  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-user"></i> username
+    </button>
+    <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#"> <i class="fas fa-sign-out-alt"></i> Logout</a>
+      <a class="dropdown-item" href="#"> <i class="fas fa-info-circle"></i>  about</a>
+  
+    </div>
+  </div>
+</div>
+
 </nav>
 
+<br>
+<br>
+<br>
 
 <div class="container">
 
@@ -47,9 +71,10 @@
 <hr>
 
 <div class="container justify-content-center">
-<div class="justify-content-center">   
-  <h1 class='title '>Student services</h1>
+<div class="justify-content-center">  
 
+  <h1 class='title '>Student services</h1>
+ 
 
  <div class="row justify-content-center ">
   
@@ -302,9 +327,10 @@
 <br>
 <br>
 <div>
+
  <h1 class='title'>Public services</h1>
 
- <div class="row justify-content-right  ">
+ <div class="row justify-content-center ">
 
     <div class="card text-center" >
       <i class="fas fa-passport material-icons"></i>
@@ -319,7 +345,7 @@
 
 
     <div class="card text-center" >
-      <i class="fas fa-passport material-icons"></i>
+      <i class="fas fa-file-download material-icons"></i>
     <div class="card-body">
       <h5 class="card-title">Online Provincial Certificate</h5>
       <p class="card-text">provincial certificate online</p>
@@ -328,6 +354,8 @@
       <a href="#" class="btn btn-outline-dark btn-sm">click here</a>
     </div>
     </div>
+
+    
 
   </div>
 </div>
@@ -342,6 +370,21 @@
 
 
 </div>
+<br>
+<br>
+<br>
+
+<footer class="fixed-bottom">
+
+ 
+  <div class="footer-copyright text-center py-3">
+    <h5>© Copyright 2020 Faculty of Science. All Rights Reserved
+      University of Peradeniya.</h5>
+    
+  </div>
+
+
+</footer>
 
 <script  type="text/javascript" src='index.js'></script>
 </body>
