@@ -23,14 +23,20 @@ h1{
 h5 , h2{
     display:inline;
     color: black;
+   
     
+}
+
+.top-logo{
+
+    display: flex;
 }
 
 .logo{
 
    height: 60px; 
    width: 60px;
-    display: inline;
+    
     color:black;
     padding: 5px;
 
@@ -63,6 +69,18 @@ h5 , h2{
 }
 
 footer{
-   
+    text-align:center; 
     background-color: #faf5f5;
+    width: 100%;
+    
 }
+@media (min-width: 600px) {
+
+    /* Pull out the header and footer */
+footer{
+      position: fixed;
+      bottom: 0;
+      height: 50px;
+    }
+  }
+
