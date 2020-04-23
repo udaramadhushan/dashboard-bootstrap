@@ -6,6 +6,11 @@ body {
    
 }
 
+.tab-content{
+    background-color: blanchedalmond;
+}
+
+
 h1, h5, h2{
 
     font-family: 'Roboto', sans-serif;
@@ -42,6 +47,10 @@ h5 , h2{
 
 }
 
+.card button{
+
+    font-family: 'Bebas Neue', cursive;
+}
 
 .card{
  
@@ -52,14 +61,12 @@ h5 , h2{
 }
 
 .card:hover{
-
-    transform: scale(1.1);
+    box-shadow: 5px 5px #474644;
+    background-color: rgba(0, 0, 0, 0.01);
+  
 }
 
-.card-footer{
 
-    background-color: #65c274;
-}
 .material-icons {
 
    font-size: 50px;
