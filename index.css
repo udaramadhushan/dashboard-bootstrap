@@ -6,10 +6,12 @@ body {
    
 }
 
-.tab-content{
-    background-color: blanchedalmond;
-}
 
+#search-bar{
+
+    background-color: #d5dce6;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 h1, h5, h2{
 
