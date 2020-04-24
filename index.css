@@ -9,7 +9,8 @@ body {
 
 #search-bar{
 
-    background-color: #d5dce6;
+    border-color: blue;
+    border-width: 2px;
     font-family: 'Ubuntu', sans-serif;
 }
 
