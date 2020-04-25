@@ -1,0 +1,134 @@
+{
+    "studentServices": [{
+        "title": "Combination Selections",
+        "description": "select subject combinations",
+        "URL": "http://www.google.lk",
+        "icon": "fa-user"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Result Management",
+            "description": "Manage results",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Timetable Management",
+            "description": "Manage time tables",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Medical Requests",
+            "description": "Manage Medical Requests",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Evaluation",
+            "description": "Evaluate courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }],
+
+
+    "staffServices": [ {
+        "title": "Course Evaluation",
+        "description": "Evaluate courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }
+
+    ],
+    "accountManagement": [{
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }, {
+        "title": "Course Management",
+        "description": "select courses",
+        "URL": "http://www.facebook.com",
+        "icon": "fa-group"
+    }],
+    "publicServices": [
+
+         {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }, {
+            "title": "Course Management",
+            "description": "select courses",
+            "URL": "http://www.facebook.com",
+            "icon": "fa-group"
+        }
+    ]
+
+}
