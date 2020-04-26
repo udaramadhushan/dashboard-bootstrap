@@ -3,131 +3,111 @@
         "title": "Combination Selections",
         "description": "select subject combinations",
         "URL": "http://www.google.lk",
-        "icon": "fa-user"
+        "icon": "fas fa-list-ol"
         }, {
             "title": "Course Management",
             "description": "select courses",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-tasks"
         }, {
             "title": "Result Management",
             "description": "Manage results",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-spell-check"
         }, {
             "title": "Timetable Management",
             "description": "Manage time tables",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-hourglass-half"
         }, {
             "title": "Medical Requests",
             "description": "Manage Medical Requests",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon":"fas fa-notes-medical"
         }, {
             "title": "Course Evaluation",
             "description": "Evaluate courses",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-chart-pie"
         }],
 
 
     "staffServices": [ {
-        "title": "Course Evaluation",
-        "description": "Evaluate courses",
+        "title": "Vehicle Reservation",
+        "description": "Reserve Vehicles",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-car-alt"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Digital Signature",
+        "description": "Manage Digital Signatures",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-file-signature"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Leave Management",
+        "description": "Manage Duty Leaves",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-business-time"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Travel Claim",
+        "description": "Claim Travel Expenses",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon":"fas fa-plane"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Document Management",
+        "description": "Manage Documents",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-folder-open"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Room Allocation",
+        "description": "Allocate Hostal rooms",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-door-closed"
     }
 
     ],
     "accountManagement": [{
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Google Suite email account",
+        "description": "Manage Gsuit email",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fab fa-google"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Google calender",
+        "description": "Manage google calender",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-calendar-minus"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Email groups",
+        "description": "Manage email groups",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fas fa-at"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "AWS education",
+        "description": "Learn AWS",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fab fa-aws"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "GitHub education",
+        "description": "Learn Github",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fab fa-github"
     }, {
-        "title": "Course Management",
-        "description": "select courses",
+        "title": "Microsoft Education",
+        "description": "Learn Microsoft",
         "URL": "http://www.facebook.com",
-        "icon": "fa-group"
+        "icon": "fab fa-windows"
     }],
     "publicServices": [
 
          {
-            "title": "Course Management",
-            "description": "select courses",
+            "title": "Online Transcript Service",
+            "description": "Transcript Online",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-passport"
         }, {
-            "title": "Course Management",
-            "description": "select courses",
+            "title": "Online Provincial Certificate",
+            "description": "provincial certificate online",
             "URL": "http://www.facebook.com",
-            "icon": "fa-group"
-        }, {
-            "title": "Course Management",
-            "description": "select courses",
-            "URL": "http://www.facebook.com",
-            "icon": "fa-group"
-        }, {
-            "title": "Course Management",
-            "description": "select courses",
-            "URL": "http://www.facebook.com",
-            "icon": "fa-group"
-        }, {
-            "title": "Course Management",
-            "description": "select courses",
-            "URL": "http://www.facebook.com",
-            "icon": "fa-group"
-        }, {
-            "title": "Course Management",
-            "description": "select courses",
-            "URL": "http://www.facebook.com",
-            "icon": "fa-group"
+            "icon": "fas fa-file-download"
         }
     ]
 
