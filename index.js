@@ -1,19 +1,33 @@
 
+
+
 $(document).ready(function(){
+
 
   $searchbar = $("#search-bar");
   $titles = $('.title');
  
 
   $('#no-result').hide();
+  $('.title').hide();
 
-  $.getJSON("icon_data.json",function( json ) {
-  
-      fillIcons('.student-services',json.studentServices) 
-      fillIcons('.staff-services',json.staffServices) 
-      fillIcons('.account-management',json.accountManagement) 
-      fillIcons('.public-services',json.publicServices) 
-   });
+$.getJSON("icon_data.json",function( json ) {
+    $('.title').show();
+    fillIcons('.student-services',json.studentServices) 
+    fillIcons('.staff-services',json.staffServices) 
+    fillIcons('.account-management',json.accountManagement) 
+    fillIcons('.public-services',json.publicServices) 
+ }).done(function() {
+  $('.title').show();
+ 
+})
+.fail(function() {
+  $('.spinner-border ').parent().append('<h2>Server error</h2>')
+ 
+})
+.always(function() {
+  $('.spinner-border').remove();
+});
 
    const fillIcons = (title, objectArray) =>{
 
