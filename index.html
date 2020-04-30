@@ -86,8 +86,24 @@
 
 
   <hr>
+  <div class='loading-screen'>
+  <div class="row col-12 justify-content-center ">  
+  <div class="d-flex row justify-content-center content-box row">
+     
+    <div class="spinner-border text-dark loading-icon " role="status">
+      
+      <span class="sr-only">Loading...</span>
+    </div>
+    
+  </div> 
+   
+  </div>
+  <div class='row col-12 justify-content-center loading-text'>
+    <h2>Please wait while loading your applications .</h2>
+  </div>
+</div>
 
-  <div class="container justify-content-center main-panel">
+  <div class="container justify-content-center main-panel disabled">
 
   
 
@@ -107,40 +123,35 @@
       </div>
 
 
-      <div class="d-flex row justify-content-center ">
-        
-        <div class="spinner-border text-dark" role="status">
-          
-          <span class="sr-only">Loading...</span>
-        </div>
-       
-      </div>
       
 
       <div class="justify-content-center">
 
         <h1 class='title student-services'>Student services</h1>
 
+        <div class='container justify-content-center'>
 
-        <div class="row justify-content-center card-panel">
+        <div class="d-flex row justify-content-center  justify-content-sm-start  card-panel">
 
         
 
 
 
         </div>
+        </div>
       </div>
 
       <br>
       <br>
 
-      <div class="justify-content-center">
+      <div class=" justify-content-center">
         <h1 class='title staff-services'>Staff services</h1>
-
-        <div class="row justify-content-center card-panel ">
+        <div class='container justify-content-center'>
+        <div class=" d-flex row justify-content-center  justify-content-sm-start card-panel ">
 
 
         </div>
+      </div>
 
       </div>
 
@@ -151,9 +162,10 @@
       <div class="justify-content-center">
 
         <h1 class='title account-management'>Account management</h1>
+        <div class='container justify-content-center'>
+        <div class=" d-flex row justify-content-center  justify-content-sm-start card-panel">
 
-        <div class="row justify-content-center card-panel">
-
+        </div>
         </div>
       </div>
 
@@ -164,15 +176,16 @@
       <div class="justify-content-center">
 
         <h1 class='title public-services'>Public services</h1>
-
-        <div class="row justify-content-center card-panel">
+        <div class='container justify-content-center'>
+        <div class="d-flex row justify-content-center  justify-content-sm-start  card-panel  ">
 
 
         </div>
+        </div>
       </div>
 
-      <div id="no-result" >
-        <h1 class='bg-danger'>NO RESULTS FOUND </h1>
+      <div id="no-result" class='disabled row justify-content-center ' >
+        <h1 class='row bg-danger col-12 justify-content-center'>NO RESULTS FOUND </h1>
        </div>
        <div class="container panel">
 
@@ -191,7 +204,7 @@
   <br>
   <br>
 
-  <footer>
+  <footer class='fixed-bottom'>
 
 
     <div class="footer-copyright text-center py-3">

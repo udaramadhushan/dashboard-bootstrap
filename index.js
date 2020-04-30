@@ -6,27 +6,30 @@ $(document).ready(function(){
 
   $searchbar = $("#search-bar");
   $titles = $('.title');
+
  
 
-  $('#no-result').hide();
-  $('.title').hide();
 
 $.getJSON("icon_data.json",function( json ) {
-    $('.title').show();
+   
     fillIcons('.student-services',json.studentServices) 
     fillIcons('.staff-services',json.staffServices) 
     fillIcons('.account-management',json.accountManagement) 
     fillIcons('.public-services',json.publicServices) 
  }).done(function() {
-  $('.title').show();
+
+  $('.loading-screen').remove();
+  $('.main-panel').removeClass('disabled');
+  $('footer').removeClass('fixed-bottom');
  
 })
 .fail(function() {
-  $('.spinner-border ').parent().append('<h2>Server error</h2>')
+  $('.loading-screen').find('.loading-text').find('h2').text('server error');
  
 })
 .always(function() {
-  $('.spinner-border').remove();
+ 
+ 
 });
 
    const fillIcons = (title, objectArray) =>{
@@ -62,7 +65,7 @@ $.getJSON("icon_data.json",function( json ) {
    (number > 0) ? $(element).show() : $(element).hide();  
    });
 
-   ($("div.card:visible").length === 0) ?   $("#no-result").show() :  $("#no-result").hide();
+   ($("div.card:visible").length === 0) ?   $("#no-result").removeClass('disabled') :  $("#no-result").addClass('disabled');
 
   
   }); 
