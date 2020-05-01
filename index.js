@@ -20,11 +20,11 @@ $.getJSON("icon_data.json",function( json ) {
 
   $('.loading-screen').remove();
   $('.main-panel').removeClass('disabled');
-  $('footer').removeClass('fixed-bottom');
  
 })
 .fail(function() {
-  $('.loading-screen').find('.loading-text').find('h2').text('server error');
+ $('.loading-screen').find('.loading-text').find('h5').text('server error');
+ $('.loading-screen').find('.loading-icon').remove();
  
 })
 .always(function() {

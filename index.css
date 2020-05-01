@@ -114,12 +114,14 @@ footer{
 }
 
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 
     
 footer{
-      position: fixed;
-      bottom: 0;
+   
+     max-height: 60px;
+     
+    
      
     }
 
