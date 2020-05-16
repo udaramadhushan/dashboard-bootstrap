@@ -38,10 +38,10 @@ $.getJSON("icon_data.json",function( json ) {
     newCard = $('#card-templete').clone();
 
     $(newCard).removeAttr('id');
-    $(newCard).children('.card-body').find('.card-title').html(object.title);
-    $(newCard).children('.card-body').find('.card-text').html(object.description);
-    $(newCard).children('.card-icon').addClass(object.icon);
-    $(newCard).children('.card-footer').find('.card-url').attr("href", object.URL);
+    $(newCard).find('.card-title').html(object.title);
+    $(newCard).find('.card-text').html(object.description);
+    $(newCard).find('.card-icon').addClass(object.icon);
+    $(newCard).find('.card-footer').find('.card-url').attr("href", object.URL);
     $(title).closest('div').find('.card-panel').append(newCard);
     })
   }
